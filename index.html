@@ -3,27 +3,37 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Contoh HTML Structure</title>
+    <title>Contoh HTML Semantic Elements</title>
   </head>
   <body>
-    <h1>Ini adalah Judul Utama (Heading 1)</h1>
+    <header>
+      <h1>Page Header</h1>
+      <p>Deskripsi atau informasi tambahan tentang halaman.</p>
+    </header>
 
-    <p>Ini adalah paragraf pertama. Tulisan ini berada di dalam sebuah paragraf HTML.</p>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
 
-    <h2>Ini adalah Judul Kedua (Heading 2)</h2>
+    <main>
+      <section>
+        <h2>Section 1</h2>
+        <p>Konten untuk section 1.</p>
+        <img src="assets/pardus.jpg" alt="Contoh Gambar" />
+        <button type="button">Klik Saya</button>
+      </section>
 
-    <p>Ini adalah paragraf kedua. Selamat datang di contoh HTML structure.</p>
-
-    <ul>
-      <li>Item 1 dalam daftar tak terurut</li>
-      <li>Item 2 dalam daftar tak terurut</li>
-      <li>Item 3 dalam daftar tak terurut</li>
-    </ul>
-
-    <img src="assets/jett.png" alt="Contoh Gambar" />
-
-    <button type="button">Klik Saya</button>
-
-    <p>Ini adalah paragraf ketiga. Terima kasih sudah menggunakan contoh HTML ini.</p>
+      <section>
+        <h2>Section 2</h2>
+        <p>Konten untuk section 2.</p>
+        <img src="assets/jett.png" alt="Gambar Lain" />
+        <button type="button">Klik Saya 2</button>
+      </section>
+    </main>
   </body>
 </html>
